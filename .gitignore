@@ -1,0 +1,45 @@
+# Large genomic files — do NOT commit
+*.bam
+*.bam.bai
+*.cram
+*.cram.crai
+*.fa
+*.fa.fai
+*.fa.gz
+*.dict
+*.vcf.gz
+*.vcf.gz.tbi
+*.vcf
+*.tbi
+*.bed
+*.bed.gz
+
+# 1000G raw data
+data/ref/
+data/vcf/1000g_chr21.vcf.gz
+data/vcf/NA12878_chr21.vcf.gz
+data/vcf/trio_synthetic.vcf.gz
+data/g1k.ped
+
+# Intermediate slivar output (large)
+results/slivar/trio_inherited.vcf.gz
+results/slivar/trio_inherited.vcf.gz.tbi
+results/annotated/all_candidates.tsv
+results/annotated/denovo_variants.tsv
+
+# Keep these (small, essential)
+!data/trio.ped
+!results/annotated/candidates_ranked.csv
+!results/annotated/coding_candidates.csv
+!results/annotated/denovo_top50_annotated.csv
+!report/clinical_interpretation.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

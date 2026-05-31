@@ -1,0 +1,17 @@
+name: trio-wes
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - samtools=1.13
+  - bcftools=1.13
+  - tabix
+  - pandas
+  - requests
+  - jupyter
+  - openpyxl
+  - pip
+  - pip:
+    - condacolab
