@@ -1,4 +1,4 @@
-# Project 04 — Trio WES Analysis for Rare Disease Diagnosis
+# Trio WES Analysis for Rare Disease Diagnosis
 
 ![Pipeline](https://img.shields.io/badge/pipeline-slivar%20%7C%20GATK4%20%7C%20VEP-blue)
 ![Dataset](https://img.shields.io/badge/dataset-1000%20Genomes%20Phase%203-green)
