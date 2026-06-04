@@ -185,16 +185,4 @@ python workflow/05_rank_candidates.py
 
 ---
 
-## Part of Clinical Bioinformatics Portfolio
-
-| # | Project | Status |
-|---|---------|--------|
-| 01 | Rare Disease Variant Interpretation Report | ✅ Complete |
-| 02 | HPO Phenotype Matching Pipeline | ✅ Complete |
-| 03 | Automated VCF Annotation Pipeline (Nextflow) | ✅ Complete |
-| **04** | **Trio WES Analysis** | ✅ **Complete** |
-| 05 | ML Variant Pathogenicity Classifier | 🔜 Upcoming |
-
----
-
 *Dataset: 1000 Genomes Project (public domain). Not for clinical use.*
