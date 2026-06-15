@@ -16,12 +16,6 @@ Simulates a clinical diagnostic workup: inheritance filtering → variant annota
 
 ---
 
-## Clinical Question
-
-> *A child presents with neurodevelopmental delay. Trio WES is ordered. What variants explain the phenotype?*
-
----
-
 ## Pipeline Summary
 
 ```
