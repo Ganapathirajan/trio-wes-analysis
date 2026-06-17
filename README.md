@@ -1,4 +1,4 @@
-# Trio WES Analysis for Rare Disease Diagnosis
+# Trio WES Analysis for Rare Disease Diagnosis.
 
 ![Pipeline](https://img.shields.io/badge/pipeline-slivar%20%7C%20GATK4%20%7C%20VEP-blue)
 ![Dataset](https://img.shields.io/badge/dataset-1000%20Genomes%20Phase%203-green)
@@ -10,9 +10,9 @@
 End-to-end trio whole exome sequencing (WES) analysis pipeline for rare disease diagnosis.  
 Simulates a clinical diagnostic workup: inheritance filtering → variant annotation → candidate ranking → clinical report.
 
-**Dataset:** NA12878 (chr21), 1000 Genomes Phase 3  
-**Scope:** Chromosome 21 (Colab-compatible subset)  
-**Trio:** Synthetic proband + parents derived from real NA12878 heterozygous variants
+**Dataset:** NA12878 (chr21), 1000 Genomes Phase 3.  
+**Scope:** Chromosome 21 (Colab-compatible subset).  
+**Trio:** Synthetic proband + parents derived from real NA12878 heterozygous variants.
 
 ---
 
@@ -176,7 +176,3 @@ python workflow/05_rank_candidates.py
 - ACMG classification framework (PVS1, PS2, PP3)
 - Clinical report writing
 - Reproducible bioinformatics pipeline design
-
----
-
-*Dataset: 1000 Genomes Project (public domain). Not for clinical use.*
